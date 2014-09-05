@@ -1,0 +1,19 @@
+_seven: CODE, 32400 0 10
+_five: CODE, 32360 0 10
+_roadTwo: CODE, 32450 0 10
+_main: CODE, 32534 0 38
+_oneToNine: CODE, 32622 0 146
+_roadOne: CODE, 32440 0 10
+_four: CODE, 32370 0 10
+__initialization: CODE, 32470 0 4
+_three: CODE, 32420 0 10
+_isInterrupted: CODE, 32506 0 28
+_two: CODE, 32430 0 10
+_six: CODE, 32410 0 10
+_yallowLight: CODE, 32480 0 26
+_eight: CODE, 32350 0 10
+_Delay1Second: CODE, 32572 0 50
+_nine: CODE, 32380 0 10
+_one: CODE, 32390 0 10
+_zero: CODE, 32460 0 10
+Total: 412

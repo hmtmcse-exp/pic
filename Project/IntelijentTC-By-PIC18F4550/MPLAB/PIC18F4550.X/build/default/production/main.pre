@@ -6382,8 +6382,11 @@ void seven(void);
 void eight(void);
 void nine(void);
 void zero(void);
+void isInterrupted(void);
 
 void main(int argc, char** argv) {
+
+ADCON1 = 0xFF;
 
 TRISBbits.RB0 = 0;
 TRISBbits.RB1 = 0;
@@ -6395,12 +6398,11 @@ TRISBbits.RB5 = 0;
 TRISBbits.RB6 = 0;
 
 TRISAbits.RA0 = 1;
-TRISAbits.RA1 = 0;
+TRISAbits.RA1 = 1;
 
 while(1)
 {
 yallowLight();
-
 roadOne();
 yallowLight();
 roadTwo();
@@ -6410,12 +6412,20 @@ roadTwo();
 
 void yallowLight(){
 zero();
-if(PORTAbits.RA0){
-roadOne();
-}
+isInterrupted();
 LATB2 = 1;
 Delay1Second(300);
 LATB2 = 0;
+}
+
+void isInterrupted(){
+if(PORTAbits.RA0){
+roadOne();
+zero();
+}else if(PORTAbits.RA1){
+roadTwo();
+zero();
+}
 }
 
 void roadOne(){

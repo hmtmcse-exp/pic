@@ -125,39 +125,41 @@
 [v ___asftsub __asftsub `(f  1 e 3 0 ]
 "6 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\aslmul.c
 [v ___aslmul __aslmul `(ul  1 e 4 0 ]
-"101 G:\pic\Project\basicBy-PIC18F4550\MPLAB\PIC18F4550.X\main.c
+"102 G:\pic\Project\basicBy-PIC18F4550\MPLAB\PIC18F4550.X\main.c
 [v _main main `(v  1 e 0 0 ]
-"126
+"128
 [v _yallowLight yallowLight `(v  1 e 0 0 ]
 "136
+[v _isInterrupted isInterrupted `(v  1 e 0 0 ]
+"146
 [v _roadOne roadOne `(v  1 e 0 0 ]
-"142
+"152
 [v _roadTwo roadTwo `(v  1 e 0 0 ]
-"149
+"159
 [v _oneToNine oneToNine `(v  1 e 0 0 ]
-"170
+"180
 [v _one one `(v  1 e 0 0 ]
-"177
+"187
 [v _two two `(v  1 e 0 0 ]
-"184
+"194
 [v _three three `(v  1 e 0 0 ]
-"191
+"201
 [v _four four `(v  1 e 0 0 ]
-"198
+"208
 [v _five five `(v  1 e 0 0 ]
-"205
+"215
 [v _six six `(v  1 e 0 0 ]
-"212
+"222
 [v _seven seven `(v  1 e 0 0 ]
-"219
+"229
 [v _eight eight `(v  1 e 0 0 ]
-"226
+"236
 [v _nine nine `(v  1 e 0 0 ]
-"233
+"243
 [v _zero zero `(v  1 e 0 0 ]
-"241
+"251
 [v _Delay1Second Delay1Second `(v  1 e 0 0 ]
-[s S69 . 1 `uc 1 RA0 1 0 :1:0 
+[s S70 . 1 `uc 1 RA0 1 0 :1:0 
 `uc 1 RA1 1 0 :1:1 
 `uc 1 RA2 1 0 :1:2 
 `uc 1 RA3 1 0 :1:3 
@@ -166,7 +168,7 @@
 `uc 1 RA6 1 0 :1:6 
 ]
 "2616 C:\Program Files (x86)\Microchip\xc8\v1.32\include\pic18f4550.h
-[s S121 . 1 `uc 1 AN0 1 0 :1:0 
+[s S132 . 1 `uc 1 AN0 1 0 :1:0 
 `uc 1 AN1 1 0 :1:1 
 `uc 1 AN2 1 0 :1:2 
 `uc 1 AN3 1 0 :1:3 
@@ -174,26 +176,26 @@
 `uc 1 AN4 1 0 :1:5 
 `uc 1 OSC2 1 0 :1:6 
 ]
-[s S129 . 1 `uc 1 . 1 0 :2:0 
+[s S140 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 VREFM 1 0 :1:2 
 `uc 1 VREFP 1 0 :1:3 
 `uc 1 . 1 0 :1:4 
 `uc 1 LVDIN 1 0 :1:5 
 ]
-[s S135 . 1 `uc 1 . 1 0 :5:0 
+[s S146 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 HLVDIN 1 0 :1:5 
 ]
-[s S138 . 1 `uc 1 . 1 0 :7:0 
+[s S149 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 RA7 1 0 :1:7 
 ]
-[s S141 . 1 `uc 1 . 1 0 :7:0 
+[s S152 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 RJPU 1 0 :1:7 
 ]
-[s S144 . 1 `uc 1 ULPWUIN 1 0 :1:0 
+[s S155 . 1 `uc 1 ULPWUIN 1 0 :1:0 
 ]
-[u S146 . 1 `S69 1 . 1 0 `S121 1 . 1 0 `S129 1 . 1 0 `S135 1 . 1 0 `S138 1 . 1 0 `S141 1 . 1 0 `S144 1 . 1 0 ]
-[v _PORTAbits PORTAbits `VES146  1 e 1 @3968 ]
-[s S61 . 1 `uc 1 TRISA0 1 0 :1:0 
+[u S157 . 1 `S70 1 . 1 0 `S132 1 . 1 0 `S140 1 . 1 0 `S146 1 . 1 0 `S149 1 . 1 0 `S152 1 . 1 0 `S155 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES157  1 e 1 @3968 ]
+[s S62 . 1 `uc 1 TRISA0 1 0 :1:0 
 `uc 1 TRISA1 1 0 :1:1 
 `uc 1 TRISA2 1 0 :1:2 
 `uc 1 TRISA3 1 0 :1:3 
@@ -202,9 +204,9 @@
 `uc 1 TRISA6 1 0 :1:6 
 ]
 "4004
-[u S77 . 1 `S61 1 . 1 0 `S69 1 . 1 0 ]
-[v _TRISAbits TRISAbits `VES77  1 e 1 @3986 ]
-[s S21 . 1 `uc 1 TRISB0 1 0 :1:0 
+[u S78 . 1 `S62 1 . 1 0 `S70 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES78  1 e 1 @3986 ]
+[s S22 . 1 `uc 1 TRISB0 1 0 :1:0 
 `uc 1 TRISB1 1 0 :1:1 
 `uc 1 TRISB2 1 0 :1:2 
 `uc 1 TRISB3 1 0 :1:3 
@@ -214,7 +216,7 @@
 `uc 1 TRISB7 1 0 :1:7 
 ]
 "4203
-[s S30 . 1 `uc 1 RB0 1 0 :1:0 
+[s S31 . 1 `uc 1 RB0 1 0 :1:0 
 `uc 1 RB1 1 0 :1:1 
 `uc 1 RB2 1 0 :1:2 
 `uc 1 RB3 1 0 :1:3 
@@ -223,8 +225,10 @@
 `uc 1 RB6 1 0 :1:6 
 `uc 1 RB7 1 0 :1:7 
 ]
-[u S39 . 1 `S21 1 . 1 0 `S30 1 . 1 0 ]
-[v _TRISBbits TRISBbits `VES39  1 e 1 @3987 ]
+[u S40 . 1 `S22 1 . 1 0 `S31 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES40  1 e 1 @3987 ]
+"7171
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
 "10187
 [v _LATB0 LATB0 `VEb  1 e 0 @31824 ]
 "10189
@@ -241,86 +245,91 @@
 [v _LATB6 LATB6 `VEb  1 e 0 @31830 ]
 "84 G:\pic\Project\basicBy-PIC18F4550\MPLAB\PIC18F4550.X\main.c
 [v _i i `i  1 e 2 0 ]
-"101
+"102
 [v _main main `(v  1 e 0 0 ]
 {
 [v main@argc argc `i  1 p 2 3 ]
 [v main@argv argv `*.2*.2uc  1 p 3 5 ]
-"123
+"125
 } 0
-"126
+"128
 [v _yallowLight yallowLight `(v  1 e 0 0 ]
 {
 "134
 } 0
-"233
+"136
+[v _isInterrupted isInterrupted `(v  1 e 0 0 ]
+{
+"144
+} 0
+"243
 [v _zero zero `(v  1 e 0 0 ]
 {
-"238
+"248
 } 0
-"136
-[v _roadOne roadOne `(v  1 e 0 0 ]
-{
-"140
-} 0
-"142
+"152
 [v _roadTwo roadTwo `(v  1 e 0 0 ]
 {
-"146
+"156
 } 0
-"149
+"146
+[v _roadOne roadOne `(v  1 e 0 0 ]
+{
+"150
+} 0
+"159
 [v _oneToNine oneToNine `(v  1 e 0 0 ]
 {
-"168
+"178
 } 0
-"177
+"187
 [v _two two `(v  1 e 0 0 ]
 {
-"182
+"192
 } 0
-"184
+"194
 [v _three three `(v  1 e 0 0 ]
 {
-"189
+"199
 } 0
-"205
+"215
 [v _six six `(v  1 e 0 0 ]
 {
-"210
+"220
 } 0
-"212
+"222
 [v _seven seven `(v  1 e 0 0 ]
 {
-"217
+"227
 } 0
-"170
+"180
 [v _one one `(v  1 e 0 0 ]
 {
-"175
+"185
 } 0
-"226
+"236
 [v _nine nine `(v  1 e 0 0 ]
 {
-"231
+"241
 } 0
-"191
+"201
 [v _four four `(v  1 e 0 0 ]
 {
-"196
+"206
 } 0
-"198
+"208
 [v _five five `(v  1 e 0 0 ]
 {
-"203
+"213
 } 0
-"219
+"229
 [v _eight eight `(v  1 e 0 0 ]
 {
-"224
+"234
 } 0
-"241
+"251
 [v _Delay1Second Delay1Second `(v  1 e 0 0 ]
 {
 [v Delay1Second@interval interval `i  1 p 2 0 ]
-"245
+"255
 } 0

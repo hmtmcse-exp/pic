@@ -97,8 +97,11 @@ void seven(void);
 void eight(void);
 void nine(void);
 void zero(void);
+void isInterrupted(void);
 
 void main(int argc, char** argv) {
+
+    ADCON1 = 0xFF;  // turn all of port a to digital I/O
 
     TRISBbits.RB0 = 0;
     TRISBbits.RB1 = 0;
@@ -110,7 +113,7 @@ void main(int argc, char** argv) {
     TRISBbits.RB6 = 0;
 
     TRISAbits.RA0 = 1;
-    TRISAbits.RA1 = 0;
+    TRISAbits.RA1 = 1;
 
     while(1) //infinite loop
     {
@@ -124,9 +127,20 @@ void main(int argc, char** argv) {
 
 void yallowLight(){
         zero();
+        isInterrupted();
         LATB2 = 1; //Yallow Light ON
         Delay1Second(300);
         LATB2 = 0; //Yallow Light OFF
+}
+
+void isInterrupted(){
+    if(PORTAbits.RA0){
+        roadOne();
+        zero();
+    }else if(PORTAbits.RA1){
+       roadTwo();
+       zero();
+    }
 }
 
 void roadOne(){
