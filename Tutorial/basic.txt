@@ -1,0 +1,28 @@
+REGISTER
+------------------------------------------------------------------------------------------------------------------------
+In short, a register or a memory cell is an electronic circuit which can memorize the state of one byte.
+
+
+
+
+1. TRIS – To set a pin as Input or Output
+2. LAT – Write to this bit = write to a pin
+3. PORT – We can read/write to a pin
+
+
+Set TRIS bit
+---------------
+1 = Input (1 looks like I – input )
+0 = Output ( 0 looks like o = output)
+
+
+Read PORT bit
+----------------
+1 = pin is high
+0 = pin is low
+
+
+Set LAT bit
+-------------------
+1 = make pin high
+0 = make pin low

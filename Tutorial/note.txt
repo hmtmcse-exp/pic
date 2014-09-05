@@ -1,0 +1,1 @@
+ADCON1 = 0xFF;  // turn all of port a to digital I/O
