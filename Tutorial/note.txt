@@ -1,1 +1,10 @@
 ADCON1 = 0xFF;  // turn all of port a to digital I/O
+
+
+First Time
+-------------
+WDT     =   OFF
+BOR     =   OFF
+PBADEN  =   OFF
+LVP     =   OFF
+FOSC    =   INTIO – Internal Osc / HS/XT –  External Osc
